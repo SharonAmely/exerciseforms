@@ -1,0 +1,64 @@
+header {
+    border-width: 5px;
+    border-style: double;
+    border-color: greenyellow;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin-left: 10px;
+}
+
+nav {
+    border: 3px dotted salmon;
+    margin: 10px;
+}
+
+main {
+    border: 3px solid pink;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    /* Shorthand:
+    padding: 10px 15px 5px 20px;    
+    */
+}
+
+footer div {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+
+/* Let's also center the footer nav */
+
+footer nav {
+    padding: 10px;
+}
+
+footer ul {
+    margin: 0 auto;
+    width: fit-content;
+    padding: 0;
+}
+
+footer li {
+    display: inline;
+}
+
+
+@media screen and (min-width: 1024px) {
+    body {
+      background-color: lavender;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    body {
+      color: rgb(15, 238, 216);
+    }
+  }
+
+ 
